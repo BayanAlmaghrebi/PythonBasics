@@ -159,31 +159,82 @@ Traceback (most recent call last):
   File "C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py", line 27, in <module>
     s.power(3.4)
 TypeError: SciCalc.power() missing 1 required positional argument: 'y'
->>> 
+
 = RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
 7
 12
 81
->>> 
+
 = RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
 7
 12
 81
->>> 
+
 = RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
 welcome
 7
 12
 81
->>> 
+
 = RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
 Traceback (most recent call last):
   File "C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py", line 21, in <module>
     s = SciCalc('ahmed')
 TypeError: Calc.__init__() takes 1 positional argument but 2 were given
->>> 
+
 = RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
 welcome ahmed
 7
 12
 81
+
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+in A
+
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+in C
+
+s = ahmed
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    s = ahmed
+NameError: name 'ahmed' is not defined
+s = 'ahmed'
+l= = [1,2,3,4]
+SyntaxError: invalid syntax
+l = [1,2,3,4]
+t = (1,2,3,4)
+
+len(s)
+5
+>>> len(l)
+4
+>>> len(t)
+4
+>>> 
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+0
+>>> 
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+7
+>>> 
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+0
+>>> 
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+0
+100
+>>> 
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+0
+100
+0
+>>> 
+= RESTART: C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py
+0
+100
+0
+Traceback (most recent call last):
+  File "C:/Users/bayan/Desktop/my codes/python Basics/Functions&loop.py", line 116, in <module>
+    del c.total
+AttributeError: 'Calc' object has no attribute 'total'
